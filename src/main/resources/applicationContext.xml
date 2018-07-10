@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean name="B" class="com.kristin.bean.B" scope="prototype">
+        <property name="a" ref="A"/>
+        <property name="age" value="21"/>
+    </bean>
+    <bean name="A" class="com.kristin.bean.A">
+        <property name="name" value="kristin"/>
+    </bean>
+</beans>
